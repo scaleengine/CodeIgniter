@@ -51,6 +51,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class CI_Router {
 
+	// Starting in php82 class properties must be instanciated
+	public $uri;
+
 	/**
 	 * CI_Config class object
 	 *

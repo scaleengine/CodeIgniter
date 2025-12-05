@@ -51,6 +51,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class CI_URI {
 
+	// Starting in php82 class properties must be instanciated
+	public $config;
+
 	/**
 	 * List of cached URI segments
 	 *
