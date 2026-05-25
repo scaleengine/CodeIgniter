@@ -50,6 +50,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @author		EllisLab Dev Team
  * @link		https://codeigniter.com/userguide3/general/controllers.html
  */
+// Need dynamic properties for when we load models, since they end up in the property $this->modelname
+#[AllowDynamicProperties]
 class CI_Controller {
 
 	/**
